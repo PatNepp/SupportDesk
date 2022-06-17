@@ -5,7 +5,7 @@ const ticketSchema = mongoose.Schema({
         //ned a 'ref' so we know where to get objectId
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref: 'UserSchema'
+        ref: 'User'
     },
     product: {
         type: String,
