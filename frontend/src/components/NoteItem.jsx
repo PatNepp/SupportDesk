@@ -5,7 +5,7 @@ function NoteItem({note}) {
 
   return (
     <div className='note' style={{
-        backgroungColor: note.isStaff ? 'rgba(0,0,0,0.7)' : '#fff',
+        backgroundColor: note.isStaff ? 'rgba(0,0,0,0.7)' : '#fff',
         color: note.isStaff ? '#fff' : '#000'
     }}>
         <h4>Note from {note.isStaff ? <span>Staff</span> : <span>{user.name}</span>}</h4>
