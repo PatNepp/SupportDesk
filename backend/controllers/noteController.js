@@ -27,3 +27,7 @@ const getNotes = asyncHandler(async (req, res) => {
 
   res.status(200).json(notes)
 })
+
+module.exports = {
+  getNotes,
+}
